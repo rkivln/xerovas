@@ -1,20 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-const timeline = [
-  {  title: "Founded", desc: "Xerova Digital Services launched with a vision for premium digital solutions." },
-  {  title: "Growth", desc: "Expanded to serve 50+ clients across multiple industries and launched R&D division." },
-  {  title: "Innovation", desc: "Launched 3D printing services and custom merchandise production capabilities." },
-  {  title: "Global Reach", desc: "Reached 200+ projects completed with clients in 15+ countries worldwide." },
-];
-
-const stats = [
-  { label: "Projects Completed", value: 200 },
-  { label: "Happy Clients", value: 120 },
-  { label: "Team Members", value: 10 },
-  
-];
-
 
 function AnimatedCounter({ value }: { value: number }) {
   const [count, setCount] = useState(0);
@@ -97,7 +83,7 @@ export default function AboutSection() {
           <p className="text-lg md:text-xl italic text-foreground leading-relaxed mb-4">
             "Innovation isn't just about technology — it's about creating meaningful solutions that transform how businesses connect with their audience."
           </p>
-          <p className="font-display text-sm text-primary font-semibold">— Founder, Xerova Digital</p>
+          <p className="font-display text-sm text-primary font-semibold">— Founder, Xerova Digital Solutions</p>
         </motion.div>
 
         {/* Stats */}
