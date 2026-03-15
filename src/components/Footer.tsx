@@ -1,10 +1,10 @@
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Linkedin, Instagram, Mail, Whatsapp } from "lucide-react";
 
 const socials = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/xerova-digital-services/", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/xerovadigitalsolutions.in/", label: "Instagram" },
+  { icon: Mail, href: "xerovadigitalsolutions@gmail.com", label: "Mail" },
+  { icon: Whatsapp, href:"https://wa.me/918148080318?text=Hi", label: "Whatsapp" }
 ];
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <span className="font-display text-lg font-bold neon-text-cyan">XEROVA</span>
-            <span className="text-muted-foreground ml-1 text-sm">Digital Services</span>
+            <span className="text-muted-foreground ml-1 text-sm">Digital Solutions</span>
           </div>
 
           <div className="flex gap-4">
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Xerova Digital Services. All rights reserved.
+            © {new Date().getFullYear()} Xerova Digital Solutions. All rights reserved.
           </p>
         </div>
       </div>
